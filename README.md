@@ -14,9 +14,9 @@
 
 [![Profile Views](https://komarev.com/ghpvc/?username=DheerajKandpal&style=flat-square&color=58A6FF&label=Profile+Views)](https://github.com/DheerajKandpal)
 &nbsp;
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/dheerajkandpal)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/dheeraj-kandpal)
 &nbsp;
-[![Email](https://img.shields.io/badge/Email-dheeraj.kandpal%40surepass.io-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:dheeraj.kandpal@surepass.io)
+[![Email](https://img.shields.io/badge/Email-dheeraj.kandpal%40surepass.io-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:dheerajkandpal11111@gmail.com)
 &nbsp;
 [![Open To Work](https://img.shields.io/badge/Status-Open%20to%20Opportunities-22C55E?style=flat-square)](https://github.com/DheerajKandpal)
 
