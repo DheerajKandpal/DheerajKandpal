@@ -31,7 +31,7 @@ class DheerajKandpal:
 
     def __init__(self):
         self.name        = "Dheeraj Kandpal"
-        self.age         = 22  # born 2003
+        self.age         = 23  # born 2003
         self.location    = "India 🇮🇳"
         self.email       = "dheeraj.kandpal@surepass.io"
         self.company     = "Surepass"  # fintech & data intelligence
