@@ -33,7 +33,7 @@ class DheerajKandpal:
         self.name        = "Dheeraj Kandpal"
         self.age         = 23  # born 2003
         self.location    = "India 🇮🇳"
-        self.email       = "dheeraj.kandpal@surepass.io"
+        self.email       = "dheerajkandpal11111@gmail.com"
         self.company     = "Surepass"  # fintech & data intelligence
 
     @property
