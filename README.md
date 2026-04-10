@@ -7,7 +7,7 @@
 <div align="center">
 
 <a href="https://readme-typing-svg.demolab.com">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=3500&pause=1000&color=58A6FF&center=true&vCenter=true&width=650&lines=Turning+raw+API+responses+into+clean+data+%F0%9F%94%A7;Building+batch+pipelines+that+actually+scale+%F0%9F%9A%80;Pandas+%2B+SQL+%2B+Power+BI+%3D+my+daily+toolkit;22+y%2Fo+and+already+shipping+production+code+%E2%9C%85;Always+learning%2C+always+building+%F0%9F%93%88" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=3500&pause=1000&color=58A6FF&center=true&vCenter=true&width=650&lines=Turning+raw+API+responses+into+clean+data+%F0%9F%94%A7;Building+batch+pipelines+that+actually+scale+%F0%9F%9A%80;Pandas+%2B+SQL+%2B+Power+BI+%3D+my+daily+toolkit;23+y%2Fo+and+already+shipping+production+code+%E2%9C%85;Always+learning%2C+always+building+%F0%9F%93%88" alt="Typing SVG" />
 </a>
 
 <br/><br/>
