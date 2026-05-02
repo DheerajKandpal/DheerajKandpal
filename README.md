@@ -8,7 +8,7 @@
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=19&duration=3800&pause=900&color=58A6FF&center=true&vCenter=true&width=750&lines=Data%20%26%20Python%20Engineer%20%40%20Surepass%20%F0%9F%8F%A6;Processing%2010%2C000%2B%20API%20records%20daily%20%E2%9A%99%EF%B8%8F;ThreadPoolExecutor%20%C2%B7%20pandas%20%C2%B7%20FastAPI%20%C2%B7%20Power%20BI;Turning%20fintech%20raw%20data%20into%20clean%20insights%20%F0%9F%93%8A;23%20y%2Fo%20shipping%20production%20infrastructure%20%F0%9F%9A%80" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=19&duration=3800&pause=900&color=58A6FF&center=true&vCenter=true&width=750&lines=Data+%26+Python+Engineer+%40+Surepass;Processing+10%2C000%2B+API+records+daily+%E2%9A%99%EF%B8%8F;Building+AI+Agents+%7C+FastAPI+%7C+PostgreSQL;Fintech+pipelines+that+actually+run+in+production+%F0%9F%9A%80" alt="Typing SVG" />
 
 </div>
 
@@ -30,9 +30,9 @@
 
 ## ⚡ What I Do
 
-> I'm a **Data & Python Engineer** at **Surepass** — a fintech data intelligence company —
-> building production batch pipelines that process identity verification records at scale.
-> RC · GST · PAN · MCA · Land Records. Real data. Real systems. Every day.
+> **Data & Python Engineer @ Surepass** — fintech data intelligence company.
+> I build production batch pipelines processing identity verification records at scale.
+> RC · GST · PAN · MCA · Land Records. Real infrastructure. Every day.
 
 ```
 📍  Delhi NCR, India  |  🏦  Fintech / Data Intelligence  |  🚀  Open to Data & Python roles
@@ -40,7 +40,7 @@
 
 ---
 
-## 🔧 The Pipeline I Ship Every Day
+## 🔧 Production Pipeline Architecture
 
 ```
 ┌──────────────────────────────────────────────────────────────────────┐
@@ -50,25 +50,17 @@
 │  📥  INPUT      CSV — 10,000+ rows  (RC, GST, PAN, MCA numbers)     │
 │         │                                                            │
 │         ▼                                                            │
-│  ⚡  FETCH      ThreadPoolExecutor / multiprocessing                 │
-│                 → Concurrent REST calls to Surepass identity API     │
+│  ⚡  FETCH      ThreadPoolExecutor — concurrent REST API calls       │
 │                 → ~70% faster than sequential I/O                    │
 │         │                                                            │
 │         ▼                                                            │
-│  🧹  PARSE      ujson.loads() on raw API responses                  │
-│                 → Flatten deeply nested JSON structures              │
-│                 → pandas DataFrame normalization                     │
+│  🧹  PARSE      ujson.loads() → flatten nested JSON → DataFrame     │
 │         │                                                            │
 │         ▼                                                            │
-│  🔍  VALIDATE   Chassis number cross-matching                       │
-│                 → Aadhaar / PAN field masking                        │
-│                 → Field-level logic & error flag injection           │
+│  🔍  VALIDATE   Chassis matching · PAN/Aadhaar masking · error flags │
 │         │                                                            │
 │         ▼                                                            │
-│  📤  EXPORT     Annotated CSV — Verified / Failed / Mismatch flags  │
-│         │                                                            │
-│         ▼                                                            │
-│  📊  REPORT     Power BI dashboards + Excel for stakeholders        │
+│  📤  EXPORT     Annotated CSV → Power BI dashboard pipeline         │
 │                                                                      │
 └──────────────────────────────────────────────────────────────────────┘
 ```
@@ -77,65 +69,79 @@
 
 ## 📊 Production Numbers
 
-<div align="center">
-
 | Metric | Detail |
 |:---|:---|
-| 🔁 &nbsp; Daily records processed | **10,000+ identity API calls per batch run** |
-| ⚡ &nbsp; Speed gain over sequential | **~70% faster using ThreadPoolExecutor** |
-| 🗂️ &nbsp; Domains covered | **Vehicle RC · GST · PAN · MCA · Land Records** |
-| 🔐 &nbsp; Data protection | **Aadhaar + PAN masking on every export** |
-| 📤 &nbsp; Downstream output | **Annotated CSV → Power BI ingestion pipeline** |
-| 🛠️ &nbsp; Core stack | **Python 3 · pandas · ujson · requests · concurrent.futures** |
-
-</div>
+| 🔁 Daily records | **10,000+ identity API calls per batch run** |
+| ⚡ Speed gain | **~70% faster with ThreadPoolExecutor vs sequential** |
+| 🗂️ Domains | **Vehicle RC · GST · PAN · MCA · Land Records** |
+| 🔐 Security | **Aadhaar + PAN field masking on every export** |
+| 📤 Output | **Annotated CSV → Power BI ingestion ready** |
 
 ---
 
 ## 🛠️ Tech Stack
 
-### ⚙️ Tools I use every single day
-
 <div align="center">
 
-[![My Skills](https://skillicons.dev/icons?i=python,fastapi,selenium,mysql,postgresql,mongodb,git,github,vscode,pycharm,jupyter,linux&theme=dark)](https://skillicons.dev)
+[![Skills](https://skillicons.dev/icons?i=python,fastapi,selenium,mysql,postgresql,mongodb,git,github,vscode,pycharm,jupyter,linux&theme=dark)](https://skillicons.dev)
 
 </div>
 
 <br/>
 
-**Python Libraries**
-
+**Python Ecosystem**
+&nbsp;
 ![pandas](https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
-![ujson](https://img.shields.io/badge/ujson-fast%20JSON-FF6F00?style=flat-square&logo=python&logoColor=white)
-![requests](https://img.shields.io/badge/requests-REST%20APIs-306998?style=flat-square&logo=python&logoColor=white)
-![BeautifulSoup](https://img.shields.io/badge/BeautifulSoup-scraping-4B8BBE?style=flat-square&logo=python&logoColor=white)
-![Pydantic v2](https://img.shields.io/badge/Pydantic-v2-E92063?style=flat-square&logo=pydantic&logoColor=white)
-![concurrent.futures](https://img.shields.io/badge/concurrent.futures-parallelism-58A6FF?style=flat-square&logo=python&logoColor=white)
+![ujson](https://img.shields.io/badge/ujson-FF6F00?style=flat-square&logo=python&logoColor=white)
+![requests](https://img.shields.io/badge/requests-306998?style=flat-square&logo=python&logoColor=white)
+![BeautifulSoup](https://img.shields.io/badge/BeautifulSoup-4B8BBE?style=flat-square&logo=python&logoColor=white)
+![Pydantic v2](https://img.shields.io/badge/Pydantic_v2-E92063?style=flat-square&logo=pydantic&logoColor=white)
+![concurrent.futures](https://img.shields.io/badge/concurrent.futures-58A6FF?style=flat-square&logo=python&logoColor=white)
 
 **BI & Analytics**
-
+&nbsp;
 ![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=flat-square&logo=powerbi&logoColor=black)
 ![Excel](https://img.shields.io/badge/Advanced%20Excel-217346?style=flat-square&logo=microsoftexcel&logoColor=white)
 ![Tableau](https://img.shields.io/badge/Tableau-E97627?style=flat-square&logo=tableau&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-window%20fns%20%7C%20CTEs-4479A1?style=flat-square&logo=postgresql&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-Window_Fns_|_CTEs-4479A1?style=flat-square&logo=postgresql&logoColor=white)
 
 ---
 
 ## 📌 Featured Projects
 
-<div align="center">
-
-[![Sales Analysis SQL](https://github-readme-stats.vercel.app/api/pin/?username=DheerajKandpal&repo=Sales-Analysis-SQL-Project&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&icon_color=58A6FF)](https://github.com/DheerajKandpal/Sales-Analysis-SQL-Project)
-&nbsp;
-[![Spotify Analytics](https://github-readme-stats.vercel.app/api/pin/?username=DheerajKandpal&repo=spotify-analytics-dheeraj&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&icon_color=58A6FF)](https://github.com/DheerajKandpal/spotify-analytics-dheeraj)
-
-[![Chocolate Sales SQL](https://github-readme-stats.vercel.app/api/pin/?username=DheerajKandpal&repo=chocolate-sales-sql&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&icon_color=58A6FF)](https://github.com/DheerajKandpal/chocolate-sales-sql)
-&nbsp;
-[![Mini Python Projects](https://github-readme-stats.vercel.app/api/pin/?username=DheerajKandpal&repo=mini-python-projects&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&icon_color=58A6FF)](https://github.com/DheerajKandpal/mini-python-projects)
-
-</div>
+<table width="100%">
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/DheerajKandpal/ai-job-agent">🤖 AI Job Agent</a></h3>
+      <p>Autonomous AI system that discovers jobs, generates tailored resumes & cover letters, and applies automatically with tracking.</p>
+      <img src="https://img.shields.io/badge/Python-FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white"/>
+      <img src="https://img.shields.io/badge/LLM-AI%20Agent-FF6B35?style=flat-square&logo=openai&logoColor=white"/>
+      <img src="https://img.shields.io/badge/DB-PostgreSQL-4479A1?style=flat-square&logo=postgresql&logoColor=white"/>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/DheerajKandpal/sureflow-data-enrichment">⚙️ SureFlow Data Enrichment</a></h3>
+      <p>Production-grade batch data enrichment pipeline with pluggable provider architecture, demo mode, and FastAPI backend.</p>
+      <img src="https://img.shields.io/badge/Python-Backend-3776AB?style=flat-square&logo=python&logoColor=white"/>
+      <img src="https://img.shields.io/badge/FastAPI-Data_Pipeline-009688?style=flat-square&logo=fastapi&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Focus-Fintech_Infra-58A6FF?style=flat-square"/>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/DheerajKandpal/ecommerce-sales-analysis">🗄️ E-Commerce Sales Analysis</a></h3>
+      <p>Deep SQL analysis of e-commerce data — window functions, CTEs, revenue segmentation, customer cohort analysis.</p>
+      <img src="https://img.shields.io/badge/SQL-PostgreSQL-4479A1?style=flat-square&logo=postgresql&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Focus-Business_Intelligence-58A6FF?style=flat-square"/>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/DheerajKandpal/IPL-Cricket-2008-2023-">📊 IPL Cricket Analytics</a></h3>
+      <p>15 years of IPL data — player performance trends, team win rates, batting/bowling stats using Python & Jupyter EDA.</p>
+      <img src="https://img.shields.io/badge/Python-Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Focus-Sports_Analytics-22C55E?style=flat-square"/>
+    </td>
+  </tr>
+</table>
 
 ---
 
@@ -156,14 +162,12 @@
 </div>
 
 <div align="center">
-
 <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=DheerajKandpal&theme=github-compact&hide_border=true&bg_color=0D1117&color=58A6FF&line=58A6FF&point=FF6B35&area=true&area_color=58A6FF" />
-
 </div>
 
 ---
 
-## 🌱 What's Next
+## 🌱 Roadmap
 
 ```python
 roadmap = {
@@ -225,9 +229,6 @@ roadmap = {
 ---
 
 <div align="center">
-
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer" width="100%"/>
-
 <sub><i>"I don't just analyze data — I build the infrastructure that makes analysis possible."</i></sub>
-
 </div>
